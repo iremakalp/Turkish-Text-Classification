@@ -1,12 +1,11 @@
 # Turkish-Text-Classification
-Bu projede getir play store yorumlarından duygu analizi yapılmıştır.
+In this project, sentiment analysis is performed with Getir comments.
 
 ## Dataset
-[Veri kümesinde](https://github.com/iremakalp/Turkish-Text-Classification/tree/main/Dataset)
-getir uygulaması için playstoredan toplanan 74.500 etiketlenmiş veri bulunmaktadır. Bu verilerin 54.000'i olumlu (1) 20.000'i ise olumsuz(0) olarak etiketlenmiştir.
-Veri toplama ön işlem aşamaları için  [bu dosyaya](https://github.com/iremakalp/Turkish-Text-Classification/blob/main/Veri%20Toplama-On%20Isleme-Etiketleme/veriToplamaOnIsleme.ipynb) bakabilirsiniz.
-Veri etiketleme için [Bert](https://huggingface.co/savasy/bert-base-turkish-sentiment-cased) kullanılmıştır.
-Veri etiketleme aşamaları için [bu belgeye](https://github.com/iremakalp/Turkish-Text-Classification/blob/main/Veri%20Toplama-On%20Isleme-Etiketleme/veriEtiketleme.ipynb) bakabilirsiniz.
+[The dataset](https://github.com/iremakalp/Turkish-Text-Classification/tree/main/Dataset)
+contains 74,500 labeled data collected from the Play Store for the Getir application. Of these data, 54,000 were labeled as positive (1) and 20,000 as negative (0). 
+You can refer to this [file](https://github.com/iremakalp/Turkish-Text-Classification/blob/main/Veri%20Toplama-On%20Isleme-Etiketleme/veriToplamaOnIsleme.ipynb) for data collection preprocessing steps.[Bert](https://huggingface.co/savasy/bert-base-turkish-sentiment-cased)  was used for data labeling.  
+You can refer to this [document](https://github.com/iremakalp/Turkish-Text-Classification/blob/main/Veri%20Toplama-On%20Isleme-Etiketleme/veriEtiketleme.ipynb)  for data labeling steps.
 
-## Makine Öğrenmesi Algoritmaları
- Projede duygu analizi için SVM,Naive Bayes,MLP ve RNN makine öğrenmesi algoritmaları kullanılmıştır.
+## Machine Learning Algorithms
+In the project, SVM, Naive Bayes, MLP and RNN machine learning algorithms were used for sentiment analysis.
